@@ -21,5 +21,14 @@
     "@wdio/sync": "^5.16.10",
     "chromedriver": "^78.0.1",
     "wdio-chromedriver-service": "^5.0.2"
+  },
+  "babel": {
+    "presets": [
+      ["@babel/preset-env", {
+          "targets": {
+              "node": 12
+          }
+      }]
+    ]
   }
 }
